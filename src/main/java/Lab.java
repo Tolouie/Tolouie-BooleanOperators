@@ -34,8 +34,7 @@ public class Lab {
      */
     public boolean returnAnd(boolean b1, boolean b2){
 
-        var result = (b1 && b2) ? (true) : (false);
-        return result;
+        return (b1 && b2);
 
     }
 
@@ -47,8 +46,7 @@ public class Lab {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnOr(boolean b1, boolean b2){
-        var result = (b1 || b2) ? (true) : (false);
-        return result;
+        return (b1 || b2);
     }
 
 
